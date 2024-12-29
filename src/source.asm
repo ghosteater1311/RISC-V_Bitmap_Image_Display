@@ -115,7 +115,7 @@
     
 #------------------------------------------------------------------------------------------------------
 # Algorithm for displaying:                                                                           |
-#												    |
+#												      |
 # s5 = width of the image.                                                                            |
 # s6 = height of the image.                                                                           |
 #                                                                                                     |
@@ -123,7 +123,7 @@
 # For each rows, loop from left to right to access each columns refers for each pixels.               |
 # For each columns (aka pixels) in the row, process the color and display immediately to the display. | 
 #                                                                                                     |
-# The default color format of bitmap image it's BGR. 						    |
+# The default color format of bitmap image it's BGR. 						      |
 # Implementation of pixel in a row of bitmap image: [B1 G1 R1] [B2 G2 R2] [B3 G3 R3] ... [Bn Gn Rn].  |
 # To display image on Bitmap Display, we need to convert BGR color format into RGB color format.      |
 # It means convert 0x00BBGGRR -> 0x00RRGGBB.                                                          |
