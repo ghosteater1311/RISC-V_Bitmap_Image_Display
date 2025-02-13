@@ -14,4 +14,4 @@ This program processed the bitmap image displayed into ARGB Bitmap Display based
 - The way CPU processing the data.
 - How is the computer storing data into memmory.
 
-Feel free to read and learnning!!!
+Feel free to read and learn Assembly language!!!
