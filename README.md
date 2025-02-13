@@ -1,6 +1,7 @@
 # RISC-V_Bitmap_Image_Display
 This program processed the bitmap image displayed into ARGB Bitmap Display based on RARS.
-## Language: RISC-V RV32I Assembly 
+## Language: 
+- RISC-V RV32I Assembly 
 ## Image Supported:
 - **Resolution**: up to 512 x 512.
 - **Colour Depth**: up to 24bit.
