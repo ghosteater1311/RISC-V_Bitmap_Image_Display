@@ -1,6 +1,6 @@
 # RISC-V_Bitmap_Image_Display
 This program processed the bitmap image displayed into ARGB Bitmap Display based on RARS.
-## Framework:
+## IDE and Display Simulator:
 - RARS 1.6
 ## Language: 
 - RISC-V RV32I Assembly
