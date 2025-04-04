@@ -94,8 +94,8 @@ For more information about Assembly language and RISC-V instructions set: [Docum
 
 ### Installation Guide
 #### Environment
-- Java Devlopment Kit Environment
-+ Windows
+Java Devlopment Kit Environment
+Windows
   * Download via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-windows]
   * Run the installer.
   * To verify the installation:
@@ -104,7 +104,7 @@ For more information about Assembly language and RISC-V instructions set: [Docum
   java --version
   ```
 
-+ Mac OS:
+Mac OS:
   * Download DMG installer via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-mac]
   * Run the DMG installer.
   * To verify the installation:
@@ -113,7 +113,7 @@ For more information about Assembly language and RISC-V instructions set: [Docum
   java -version
   ```
 
-+ Linux
+Linux
 Suggestion: In Linux, it's easier to download and install java via terminal instead of download through a file.
 * apt Package
   ```sh
@@ -174,12 +174,12 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
     ```
 
 #### RARS Installation
-- RARS 1.6 IDE and Simulator
-+ Windows/Mac OS
+RARS 1.6 IDE and Simulator
+Windows/Mac OS
 * Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
 * Run the rars1_6.jar
 
-+ Linux
+Linux
 * Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
 * To Use the IDE
   - Open File Manager
