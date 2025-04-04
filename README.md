@@ -203,7 +203,8 @@ Linux
   ```sh
   git clone https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display.git
   ```
-* Open rars1_6.jar 
+* Open rars1_6.jar.
+ 
 _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rars-installation)_
 
 * In Files options, choose Open File and open the source.asm in [src] Folder.
