@@ -45,7 +45,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#demo">Demo</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -66,6 +65,7 @@
       <li><a href="#setting-up">Setting Up</a></li>
       <li><a href="#initialize">Initailize</a></li>
       <li><a href="#explaination">Explaination</a></li>
+      <li><a href="#demo">Demo</a></li>
     </ul>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -75,16 +75,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### Demo
-
-https://github.com/user-attachments/assets/1aad201a-29f3-4ff5-bf9f-4f3088aa0c08
-
-This demo displays a 512x512 .bmp image after processing.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -92,7 +82,6 @@ This demo displays a 512x512 .bmp image after processing.
 * [RISC-V Assembly Language](AssemblyLang)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -107,7 +96,7 @@ _For more information about Assembly language and RISC-V instructions set: [Docu
 
 ### Installation Guide
 #### Environment
-Java Devlopment Kit Environment
+Java Development Kit Environment
 
 Windows:
   * Download via link: [Here](https://www.oracle.com/java/technologies/downloads/#jdk24-windows)
@@ -127,7 +116,7 @@ Mac OS:
   java -version
   ```
 
-Linux
+Linux:
 
 Suggestion: In Linux, it's easier to download and install java via terminal instead of download through a file.
 * apt Package
@@ -191,11 +180,11 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
 #### RARS Installation
 RARS 1.6 IDE and Simulator
 
-Windows/Mac OS
+Windows/Mac OS:
 * Download the rars1_6.jar via release link: [Here](https://github.com/TheThirdOne/rars/releases/tag/v1.6)
 * Run the rars1_6.jar
 
-Linux
+Linux:
 * Download the rars1_6.jar via release link: [Here](https://github.com/TheThirdOne/rars/releases/tag/v1.6)
 * To Use the IDE
   - Open File Manager
@@ -211,9 +200,10 @@ Linux
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### Download Program
-* Download the source code from [Source code](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display).
+* Download the source code from [Source code](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display/archive/refs/heads/main.zip).
+  - Extract the zip file. 
 
-  Or using git:
+* Or using git:
   ```sh
   git clone https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display.git
   ```
@@ -222,7 +212,7 @@ Linux
 _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rars-installation)_
 
 ### Setting Up
-* In [File] options, choose [Open...] and open the source.asm in [src] Folder.
+* In [File] options, choose [Open...] and open the [source.asm] in [src] Folder.
 
 * [Execute] the program.
 
@@ -241,28 +231,35 @@ _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rar
 
 ### Explaination
 * Open File and Read File Header:
-- Opens the BMP file in read-only mode.
-- Reads the first 54 bytes (header) of the BMP file.
+  - Opens the BMP file in read-only mode.
+  - Reads the first 54 bytes (header) of the BMP file.
 
 * Validate the information of the image:
-- Validate File Format: Checks the first two bytes of the BMP header to ensure they are ’B’ and ’M’.
-- Validate Image Resolution: Validates the width and height of the image (both must be smaller or equal 512)
+  - Validate File Format: Checks the first two bytes of the BMP header to ensure they are ’B’ and ’M’.
+  - Validate Image Resolution: Validates the width and height of the image (both must be smaller or equal 512)
 
 * Read Pixel Data:
-- Extracts the offset to the pixel data from the header.
-- Calculates the total size of the pixel data.
+  - Extracts the offset to the pixel data from the header.
+  - Calculates the total size of the pixel data.
 
 * Displaying Algorithm:
-- Initial the width and height of the image into 2 register labels.
-- Loop from bottom up for each rows (the purpose is to access first row of bitmap image). 
-- For each rows, loop from left to right to access each columns refers for each pixels. 
-- For each columns (aka pixels) in the row, process the color and display immediately to the display. 
-- The default color format of bitmap image it's BGR. Implementation of pixel in a row of bitmap image: [B1 G1 R1] [B2 G2 R2] [B3 G3 R3] ... 
-- To display image on Bitmap Display, we need to convert BGR color format into RGB color format, It means convert 0x00BBGGRR -> 0x00RRGGBB. 
-- Each value on the hexadecimal value it's 4 bit. 
-- To do that, we use shift left logic and bitwise operation to evaluate the exactly value of the color refers to RGB format to display the image with right color as accurately as possible. 
+  - Initial the width and height of the image into 2 register labels.
+  - Loop from bottom up for each rows (the purpose is to access first row of bitmap image). 
+  - For each rows, loop from left to right to access each columns refers for each pixels. 
+  - For each columns (aka pixels) in the row, process the color and display immediately to the display. 
+  - The default color format of bitmap image it's BGR. Implementation of pixel in a row of bitmap image: [B1 G1 R1] [B2 G2 R2] [B3 G3 R3] ... 
+  - To display image on Bitmap Display, we need to convert BGR color format into RGB color format, It means convert 0x00BBGGRR -> 0x00RRGGBB. 
+  - Each value on the hexadecimal value it's 4 bit. 
+  - To do that, we use shift left logic and bitwise operation to evaluate the exactly value of the color refers to RGB format to display the image with right color as accurately as possible. 
 
-[Demo](#demo) 
+### Demo
+
+https://github.com/user-attachments/assets/1aad201a-29f3-4ff5-bf9f-4f3088aa0c08
+
+This demo displays a 512x512 .bmp image after processing.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
 _For more information about how the program works, please read the [Report][doc2]_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
