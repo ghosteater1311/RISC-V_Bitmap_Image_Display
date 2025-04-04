@@ -115,6 +115,7 @@ Mac OS:
   ```
 
 Linux
+
 Suggestion: In Linux, it's easier to download and install java via terminal instead of download through a file.
 * apt Package
   ```sh
