@@ -89,7 +89,8 @@ This demo displays a 512x512 .bmp image after processing.
 - Basic knowledge about Assembly language.
 - Ability to understand Algorithms for solving problems.
 - Depth knowledge about General Computer Architecture and RISC-V Architecture & Instructions Set.
-- The program only execute the image with the maximum resolution 512x512 and 24-bit depth color.
+- The program only execute the bitmap image with the format (.bmp or first 2 Hex Value BM), maximum resolution 512x512 and 24-bit depth color.
+
 For more information about Assembly language and RISC-V instructions set: [Document][doc]
 
 ### Installation Guide
@@ -204,10 +205,20 @@ Linux
   git clone https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display.git
   ```
 * Open rars1_6.jar.
- 
+
 _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rars-installation)_
 
-* In Files options, choose Open File and open the source.asm in [src] Folder.
+* In [File] options, choose [Open...] and open the source.asm in [src] Folder.
+
+* [Execute] the program.
+
+* In [Tools] options, choose [Bitmap-Display].
+
+* Remain the Unit Width and Height in Pixels at 1, modify the Display Width and Height in Pixels to 512 (maximum resolution).
+
+* Press [Connect-to-Program].
+
+* [Run] the program after execution.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -216,41 +227,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
-</a>
-
 
 
 <!-- LICENSE -->
