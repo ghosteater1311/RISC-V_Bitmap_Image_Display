@@ -28,9 +28,6 @@
   </a>
 
 <h3 align="center">RISC-V_Bitmap_Image_Display</h3>
-
-  <p align="center">
-    <br />
     <a href="Report.pdf"><strong>Explore the docs »</strong></a>
   </p>
 </div>
