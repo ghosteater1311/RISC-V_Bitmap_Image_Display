@@ -56,9 +56,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -91,7 +88,7 @@ This demo displays a 512x512 .bmp image after processing.
 - Depth knowledge about General Computer Architecture and RISC-V Architecture & Instructions Set.
 - The program only execute the bitmap image with the format (.bmp or first 2 Hex Value BM), maximum resolution 512x512 and 24-bit depth color.
 
-For more information about Assembly language and RISC-V instructions set: [Document][doc]
+_For more information about Assembly language and RISC-V instructions set: [Documentation][doc1]_
 
 ### Installation Guide
 #### Environment
@@ -220,7 +217,7 @@ _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rar
 
 * [Run] the program after execution.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information about how the program works, please read the [Report][doc2]_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,7 +233,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTACT -->
-## Contact
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -253,6 +249,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: image/demo.png
-[doc]: risc-v-asm-manual.pdf
+[doc1]: risc-v-asm-manual.pdf
+[doc2]: Report.pdf
 [RARS]: https://github.com/TheThirdOne/rars
 [AssemblyLang]: https://en.wikipedia.org/wiki/RISC-V_assembly_language#:~:text=RISC%2DV%20assembly%20language%20is,for%20precise%20control%20over%20hardware.
