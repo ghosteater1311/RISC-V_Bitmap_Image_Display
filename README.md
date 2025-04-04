@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### Demo
-[![Final][product-screenshot]](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display/tree/main/demo/Final.png)
+[![Final][product-demo]](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display/tree/main/demo/demo.mp4)
 This demo displays a 512x512 .bmp image after processing.
 
 
@@ -251,7 +251,7 @@ _For more information about how the program works, please read the [Report][doc2
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: image/demo.png
+[product-demo]: demo/demo.mp4
 [doc1]: risc-v-asm-manual.pdf
 [doc2]: Report.pdf
 [RARS]: https://github.com/TheThirdOne/rars
