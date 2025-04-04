@@ -258,8 +258,6 @@ https://github.com/user-attachments/assets/1aad201a-29f3-4ff5-bf9f-4f3088aa0c08
 
 This demo displays a 512x512 .bmp image after processing.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
-
 _For more information about how the program works, please read the [Report][doc2]_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -281,9 +279,13 @@ _For more information about how the program works, please read the [Report][doc2
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [RISC-V Computer Architecture](https://en.wikipedia.org/wiki/RISC-V)
+* [RISC-V Assembly Language](https://en.wikipedia.org/wiki/RISC-V_assembly_language#:~:text=RISC%2DV%20assembly%20language%20is,for%20precise%20control%20over%20hardware.)
+* [Assembly Language](https://en.wikipedia.org/wiki/Assembly_language#:~:text=In%20computer%20programming%2C%20assembly%20language,the%20language%20and%20the%20architecture's)
+* [Computer Architecture](https://en.wikipedia.org/wiki/Computer_architecture)
+* [RISC-V Reference](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/notebooks/RISCV/RISCV_CARD.pdf)
+* [Bitmap File Format](https://en.wikipedia.org/wiki/BMP_file_format)
+* [Bitmap](https://en.wikipedia.org/wiki/Bitmap)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
