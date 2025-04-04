@@ -30,7 +30,6 @@
 <h3 align="center">RISC-V_Bitmap_Image_Display</h3>
 
   <p align="center">
-    This program processed the bitmap image displayed into ARGB Bitmap Display based on RARS.
     <br />
     <a href="Report.pdf"><strong>Explore the docs »</strong></a>
   </p>
@@ -75,6 +74,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+The program process the bitmap image display into ARGB Bitmap Display based on RARS.
 
 ### Built With
 
