@@ -76,8 +76,8 @@ The program process the bitmap image display into ARGB Bitmap Display based on R
 
 ### Built With
 
-* [RARS 1.6](RARS)
-* [RISC-V Assembly Language](AssemblyLang)
+* [![RISC-V (RARS IDE)][https://img.shields.io/badge/RISC--V%20(RARS%20IDE)-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow]](RARS) 
+* [![RISC-V Assembly][https://img.shields.io/badge/RISC--V%20Assembly-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow]](AssemblyLang)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
