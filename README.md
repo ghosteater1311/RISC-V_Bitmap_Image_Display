@@ -65,7 +65,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### Demo
-[![Final][product-demo]](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display/tree/main/demo/demo.mp4)
+
+https://github.com/user-attachments/assets/1aad201a-29f3-4ff5-bf9f-4f3088aa0c08
+
 This demo displays a 512x512 .bmp image after processing.
 
 
