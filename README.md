@@ -45,6 +45,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#demo">Demo</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -53,9 +54,19 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation-guide">Installation Guide</a></li>
+        <ul>
+            <li><a href="#environment">Environment</a></li>
+            <li><a href="#rars-installation">RARS Installation</a></li>
+        </ul>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <ul>
+      <li><a href="#download-program">Download Program</a></li>
+      <li><a href="#setting-up">Setting Up</a></li>
+      <li><a href="#initialize">Initailize</a></li>
+      <li><a href="#explaination">Explaination</a></li>
+    </ul>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -199,7 +210,7 @@ Linux
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-### 
+### Download Program
 * Download the source code from [Source code](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display).
 
   Or using git:
@@ -210,18 +221,48 @@ Linux
 
 _If you don't know how to open rars1_6.jar, please read [RARS Installation](#rars-installation)_
 
+### Setting Up
 * In [File] options, choose [Open...] and open the source.asm in [src] Folder.
 
 * [Execute] the program.
 
-* In [Tools] options, choose [Bitmap-Display].
+* In [Tools] options, choose [Bitmap Display].
 
 * Remain the Unit Width and Height in Pixels at 1, modify the Display Width and Height in Pixels to 512 (maximum resolution).
 
-* Press [Connect-to-Program].
+* Press [Connect to Program].
 
 * [Run] the program after execution.
 
+### Initialize 
+* Input the full path that contain the image file.
+
+* Press [Enter] to observe the result on the [Bitmap Display].
+
+### Explaination
+* Open File and Read File Header:
+- Opens the BMP file in read-only mode.
+- Reads the first 54 bytes (header) of the BMP file.
+
+* Validate the information of the image:
+- Validate File Format: Checks the first two bytes of the BMP header to ensure they are ’B’ and ’M’.
+- Validate Image Resolution: Validates the width and height of the image (both must be smaller or equal 512)
+
+* Read Pixel Data:
+- Extracts the offset to the pixel data from the header.
+- Calculates the total size of the pixel data.
+
+* Displaying Algorithm:
+- Initial the width and height of the image into 2 register labels.
+- Loop from bottom up for each rows (the purpose is to access first row of bitmap image). 
+- For each rows, loop from left to right to access each columns refers for each pixels. 
+- For each columns (aka pixels) in the row, process the color and display immediately to the display. 
+- The default color format of bitmap image it's BGR. Implementation of pixel in a row of bitmap image: [B1 G1 R1] [B2 G2 R2] [B3 G3 R3] ... 
+- To display image on Bitmap Display, we need to convert BGR color format into RGB color format, It means convert 0x00BBGGRR -> 0x00RRGGBB. 
+- Each value on the hexadecimal value it's 4 bit. 
+- To do that, we use shift left logic and bitwise operation to evaluate the exactly value of the color refers to RGB format to display the image with right color as accurately as possible. 
+
+[Demo](#demo) 
 _For more information about how the program works, please read the [Report][doc2]_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
