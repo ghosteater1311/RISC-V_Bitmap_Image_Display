@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi9cz7M89DM9pcc8WKlIAk03hHlAjxNIQgGg&s" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">RISC-V_Bitmap_Image_Display</h3>
@@ -90,24 +90,24 @@ This demo displays a 512x512 .bmp image after processing.
 - Ability to understand Algorithms for solving problems.
 - Depth knowledge about General Computer Architecture and RISC-V Architecture & Instructions Set.
 - The program only execute the image with the maximum resolution 512x512 and 24-bit depth color.
-For more information about Assembly language and RISC-V instructions set: [[Document][doc]]
+For more information about Assembly language and RISC-V instructions set: [Document][doc]
 
 ### Installation Guide
 #### Environment
 - Java Devlopment Kit Environment
 + Windows
-  Download via link: ![[Here][https://www.oracle.com/java/technologies/downloads/#jdk24-windows]]
-  Run the installer.
-  To verify the installation:
+  * Download via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-windows]
+  * Run the installer.
+  * To verify the installation:
   - Run PowerShell as Adminstrator
   ```sh
   java --version
   ```
 
 + Mac OS:
-  Download DMG installer via link: ![[Here][https://www.oracle.com/java/technologies/downloads/#jdk24-mac]]
-  Run the DMG installer.
-  To verify the installation:
+  * Download DMG installer via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-mac]
+  * Run the DMG installer.
+  * To verify the installation:
   - Open terminal
   ```sh
   java -version
@@ -121,7 +121,7 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
   sudo apt upgrade
   sudo apt install default-jdk
   ```
-  To verify the installation:
+  - To verify the installation:
   ```sh
   javac -version
   ```
@@ -130,7 +130,7 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
   sudo pacman -Syu
   sudo pacman -S jdk-openjdk
   ```
-  To verify the installation:
+  - To verify the installation:
   ```sh
   jdk -v
   ```
@@ -141,13 +141,13 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
     sudo yum upgrade
     sudo yum install java
     ```
-    To verify the installation:
+    - To verify the installation:
     ```sh
     yum info "java"
     ```
   + For Rpm 
-    Download via link: ![[Here][https://www.oracle.com/java/technologies/downloads/#jdk24-linux]]
-    Installation:
+    * Download via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-linux]
+    * Installation:
     - Become root:
     ```sh
     su
@@ -156,7 +156,7 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
     ```sh
     cd directory_path_name
     ```
-    For example, to install the software in the /usr/java/ directory:
+    - For example, to install the software in the /usr/java/ directory:
     ```sh
     cd /usr/java
     ```
@@ -176,11 +176,11 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
 #### RARS Installation
 - RARS 1.6 IDE and Simulator
 + Windows/Mac OS
-* Download the rars1_6.jar via release link: ![[Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]]
-  Run the rars1_6.jar
+* Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
+* Run the rars1_6.jar
 
 + Linux
-* Download the rars1_6.jar via release link: ![[Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]]
+* Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
 * To Use the IDE
   - Open File Manager
   - Open the Folder contain the rars1_6.jar
@@ -194,7 +194,7 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-* Download the source code from ![[Source code][https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display]].
+* Download the source code from ![Source code][https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display].
   Or using git:
   ```sh
   git clone https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display.git
