@@ -76,8 +76,8 @@ This demo displays a 512x512 .bmp image after processing.
 
 ### Built With
 
-* [![RARS 1.6][RARS1.6]][RARS]
-* [![RISC-V Assembly Language][AssemblyLogo]][AssemblyLang]
+* [RARS 1.6](RARS)
+* [RISC-V Assembly Language](AssemblyLang)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -274,6 +274,4 @@ Don't forget to give the project a star! Thanks again!
 [product-screenshot]: image/demo.png
 [doc]: risc-v-asm-manual.pdf
 [RARS]: https://github.com/TheThirdOne/rars
-[RARS1.6]: https://dl.flathub.org/media/io/github/TheThirdOne.rars/2d9feea23194d8612ccfb6429e7d95fe/icons/128x128@2/io.github.TheThirdOne.rars.png
-[AssemblyLogo]: https://static.thenounproject.com/png/762420-200.png
 [AssemblyLang]: https://en.wikipedia.org/wiki/RISC-V_assembly_language#:~:text=RISC%2DV%20assembly%20language%20is,for%20precise%20control%20over%20hardware.
