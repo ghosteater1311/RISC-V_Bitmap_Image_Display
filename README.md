@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi9cz7M89DM9pcc8WKlIAk03hHlAjxNIQgGg&s" alt="Logo" width="80" height="80">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi9cz7M89DM9pcc8WKlIAk03hHlAjxNIQgGg&s" alt="Logo">
   </a>
 
 <h3 align="center">RISC-V_Bitmap_Image_Display</h3>
