@@ -97,7 +97,7 @@ For more information about Assembly language and RISC-V instructions set: [Docum
 Java Devlopment Kit Environment
 
 Windows:
-  * Download via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-windows]
+  * Download via link: [Here][https://www.oracle.com/java/technologies/downloads/#jdk24-windows]
   * Run the installer.
   * To verify the installation:
   - Run PowerShell as Adminstrator
@@ -106,7 +106,7 @@ Windows:
   ```
 
 Mac OS:
-  * Download DMG installer via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-mac]
+  * Download DMG installer via link: [Here][https://www.oracle.com/java/technologies/downloads/#jdk24-mac]
   * Run the DMG installer.
   * To verify the installation:
   - Open terminal
@@ -148,7 +148,7 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
     yum info "java"
     ```
   + For Rpm 
-    * Download via link: ![Here][https://www.oracle.com/java/technologies/downloads/#jdk24-linux]
+    * Download via link: [Here][https://www.oracle.com/java/technologies/downloads/#jdk24-linux]
     * Installation:
     - Become root:
     ```sh
@@ -179,11 +179,11 @@ Suggestion: In Linux, it's easier to download and install java via terminal inst
 RARS 1.6 IDE and Simulator
 
 Windows/Mac OS
-* Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
+* Download the rars1_6.jar via release link: [Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
 * Run the rars1_6.jar
 
 Linux
-* Download the rars1_6.jar via release link: ![Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
+* Download the rars1_6.jar via release link: [Here][https://github.com/TheThirdOne/rars/releases/tag/v1.6]
 * To Use the IDE
   - Open File Manager
   - Open the Folder contain the rars1_6.jar
@@ -197,7 +197,7 @@ Linux
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-* Download the source code from ![Source code][https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display].
+* Download the source code from [Source code][https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display].
   Or using git:
   ```sh
   git clone https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display.git
