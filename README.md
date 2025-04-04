@@ -76,8 +76,8 @@ The program process the bitmap image display into ARGB Bitmap Display based on R
 
 ### Built With
 
-* [![RISC-V (RARS IDE)][https://img.shields.io/badge/RISC--V%20(RARS%20IDE)-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow]](RARS) 
-* [![RISC-V Assembly][https://img.shields.io/badge/RISC--V%20Assembly-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow]](AssemblyLang)
+* [![RISC-V (RARS IDE)][RarsIcon]](RARS) 
+* [![RISC-V Assembly][AsmIcon]](AssemblyLang)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -296,3 +296,5 @@ _For more information about how the program works, please read the [Report][doc2
 [doc2]: Report.pdf
 [RARS]: https://github.com/TheThirdOne/rars
 [AssemblyLang]: https://en.wikipedia.org/wiki/RISC-V_assembly_language#:~:text=RISC%2DV%20assembly%20language%20is,for%20precise%20control%20over%20hardware.
+[AsmIcon]: https://img.shields.io/badge/RISC--V%20Assembly-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow
+[RarsIcon]: https://img.shields.io/badge/RISC--V%20(RARS%20IDE)-%235391FE.svg?style=flat&logo=riscv&logoColor=yellow
