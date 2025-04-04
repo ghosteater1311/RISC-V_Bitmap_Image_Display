@@ -67,6 +67,8 @@
 ### Demo
 [![Final][product-screenshot]](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display/tree/main/demo/Final.png)
 This demo displays a 512x512 .bmp image after processing.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -195,7 +197,7 @@ Linux
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-###
+### 
 * Download the source code from [Source code](https://github.com/ghosteater1311/RISC-V_Bitmap_Image_Display).
 
   Or using git:
