@@ -63,6 +63,7 @@
       <li><a href="#explaination">Explaination</a></li>
       <li><a href="#demo">Demo</a></li>
     </ul>
+    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -269,7 +270,11 @@ _For more information about how the program works, please read the [Report][doc2
 
 
 <!-- LICENSE -->
+## License
 
+Distributed under the project_license. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
